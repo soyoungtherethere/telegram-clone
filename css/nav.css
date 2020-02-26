@@ -1,0 +1,28 @@
+.nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #1c1c1c;
+  border-top: 0.5px solid rgba(255, 255, 255, 0.1);
+  padding: 10px 0px 20px 0px;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav__list-item .item-name {
+  font-size: 9px;
+}
+
+.nav__list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav__list-item i {
+  margin-bottom: 8px;
+}

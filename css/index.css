@@ -9,6 +9,7 @@
   font-size: 13px;
   position: relative;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
+  z-index: -1;
 }
 
 .image-container {
@@ -60,4 +61,10 @@
 
 .msg-preview {
   opacity: 60%;
+}
+
+.nav__list-item.contact,
+.nav__list-item.call,
+.nav__list-item.setting {
+  opacity: 40%;
 }
