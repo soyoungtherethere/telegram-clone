@@ -1,5 +1,23 @@
 .header {
+  position: fixed;
+  top: 37px;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  background-color: #1c1c1c;
+  padding: 10px 15px;
+}
+
+.header-text {
+  font-size: 13.5px;
+}
+
+.header-left {
+  font-weight: 400;
+}
+
+.header-center {
+  font-size: 14px;
+  font-weight: 700;
 }
