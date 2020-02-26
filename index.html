@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9fc83c3f2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>대화 | Telegram Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <span class="system-time">11:15</span>
+      <span class="system-icons">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </span>
+    </div>
+    <header class="header conversation-header">
+      <div class="conversation-header__top">
+        <span class="edit"></span>
+        <span class="conversation"></span>
+        <i class="fas fa-edit"></i>
+      </div>
+      <div class="input-box">
+        <input
+          class="input-box"
+          type="text"
+          placeholder="메시지와 사용자 검색"
+        />
+      </div>
+    </header>
+    <main class="conversation">
+      <ul class="chatroom-list">
+        <li class="chatroom">
+          <img
+            src="images/ian_profile.jpg"
+            alt=""
+            class="chatroom user-profile-pic"
+          />
+          <div class="chatroom__text">
+            <div class="chatroom__name-time">
+              <span class="username">이안</span>
+              <div class="sent-time">
+                <i class="fas fa-check"></i>
+                <span class="sent-time">10:45 PM</span>
+              </div>
+            </div>
+            <div class="msg-preview">
+              Some buttons will work and some wont! Anyway it is my first work
+              ^^ ^^
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <i class="fas fa-address-book"></i>
+          <span class="item-name">연락처</span>
+        </li>
+        <li class="nav__list-item">
+          <i class="fas fa-phone-alt"></i>
+          <span class="item-name">전화</span>
+        </li>
+        <li class="nav__list-item">
+          <i class="fas fa-comments"></i>
+          <span class="item-name">대화</span>
+        </li>
+        <li class="nav__list-item">
+          <i class="fas fa-cogs"></i>
+          <span class="item-name">설정</span>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
