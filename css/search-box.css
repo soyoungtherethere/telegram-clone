@@ -1,9 +1,32 @@
 .search-box {
+  background-color: #1c1c1c;
+  position: fixed;
+  top: 77px;
+  left: 0px;
+  right: 0px;
   display: flex;
   justify-content: center;
   width: 100%;
+  height: 48px;
 }
 
 input[type="text"]::placeholder {
   text-align: center;
+}
+
+.input-box {
+  background-color: black;
+  height: 35px;
+  width: 310px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500px;
+  position: absolute;
+  bottom: 10px;
+}
+
+input:focus {
+  outline: none;
 }
