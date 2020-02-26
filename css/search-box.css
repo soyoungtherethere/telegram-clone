@@ -1,0 +1,9 @@
+.search-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+input[type="text"]::placeholder {
+  text-align: center;
+}

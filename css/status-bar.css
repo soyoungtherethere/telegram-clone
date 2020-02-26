@@ -1,0 +1,31 @@
+.status-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  height: 37px;
+  padding-top: 10px;
+}
+
+.status-bar .system-time {
+  font-size: 13px;
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+.status-bar .system-icons {
+  display: flex;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.system-icons .icon {
+  margin-left: 6px;
+}
+
+.battery.icon {
+  font-size: 12px;
+}
